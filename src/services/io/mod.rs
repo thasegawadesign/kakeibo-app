@@ -1,6 +1,5 @@
-use serde_json::ser;
-
 use crate::models;
+use serde_json;
 use std::fs::File;
 use std::io::BufReader;
 use std::io::prelude::*;
